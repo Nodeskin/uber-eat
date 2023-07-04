@@ -1,13 +1,331 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+/* WELCOME PAGE */
+.background-image {
+  background-image: url("../src/assests/bacckground-img.png");
+  height: 55em;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-size: cover;
+  filter: brightness(100%);
+  z-index: -1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+ .welcome-page{
+margin-top: 200px;
+padding-left: 40px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+.first-header h1{
+  font-size: 75px;
+}
+
+.page1-inputs{
+  display: flex;
+
+}
+
+.address-input{
+width: 650px;
+height: 70px;
+padding: 0 10px;
+margin-right: 15px;
+font-size: 20px;
+border: none;
+}
+
+.delivery-input{
+  width: 250px;
+  height: 70px;
+  padding: 0 10px;
+  margin-right: 15px;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+}
+
+
+.page1-butt{
+width: 15%;
+/* padding: 25px; */
+font-size: 20px;
+color: white;
+background-color: black;
+border-radius: 10px;
+}
+
+.page1-p{
+  font-weight: 600;
+  font-size: 20px;
+  font-family: sans-serif;
+
+} 
+
+.page1-p a{
+  color: #000;
+}
+
+
+/* NAV_BAR */
+
+.Nav{
+  position: relative;
+  
+}
+
+.Navbar{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #fff; */
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+
+.left-nav{
+  display: flex;
+  padding-left: 40px;
+}
+
+.hamburger-react{
+  margin: 22.6px 10px 0 0;
+
+}
+
+.left-nav h1{
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.eat-style{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right-nav{
+ margin: 10px 40px;
+
+  
+}
+
+.log-button{
+  padding: 20px;
+  background-color: #fff;
+  color: #000;
+  margin-right: 15px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.sign-button{
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+#delivery-methods{
+  margin-top: 280px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 15;
+
+}
+
+.method{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 30%;
+}
+
+.method img{
+  width: 100%;
+}
+
+.method h2{
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.method a{
+font-size: 25px;
+color: #000;
+}
+
+
+/* CITIES NEAR ME */
+
+.map{
+margin-top: 40px;
+padding:  0 40px;
+}
+
+.cities-heading{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.map h1{
+  font-size: 50px;
+}
+
+
+/* LIST OF CITIES */
+
+.cities{
+display: flex;
+
+}
+
+.cities-ul{
+  list-style: none;
+  text-align: left;
+  font-size: 22px;
+  line-height: 2.5;
+  width: 22%;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* LIST OF COUNTRY */
+
+.country-list{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.country-header{
+display: flex;
+justify-content: space-between;
+}
+
+.country-header h1{
+  font-size: 45px;
+  margin-bottom: 0;
+}
+
+.view-link{
+color: #000;
+display: flex;
+font-size: 25px;
+align-items: center;
+}
+
+.country{
+display: flex;
+/* margin-top: 60px; */
+}
+
+.country-ul{
+  list-style: none;
+  text-align: left;
+  font-size: 22px;
+  line-height: 2.5;
+  width: 22%;
+  font-weight: lighter;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* INFORMATION */
+
+.line{
+  border-top: 1px solid rgb(221, 216, 216);
+  margin: 50px 0;
+}
+
+.infos{
+display: flex;
+justify-content:space-around ;
+}
+
+
+.info-store{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.app-store{
+  display: flex;
+  
+  
+}
+
+.info-store h1{
+  font-size: 40px;
+  text-align: start;
+  margin-bottom: 200px;
+}
+
+.app-store img{
+  width: 30%;
+  margin-right: 20px;
+  
+}
+
+.info-lists{
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+.info-list-ul{
+  list-style: none;
+  text-align: left;
+  font-size: 22px;
+  line-height: 2.5;
+  width: 30%;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer1{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+
+}
+
+.footer-detail {
+  display: flex;
+  list-style: none;
+}
+
+.footer-detail li{
+margin-right: 40px;
+font-size: 20px;
+}
+
+.footer-icons {
+display: flex;
+
+}
+
+.copyright{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.copyright p{
+  margin-right: 55px;
+  font-size: 20px;
 }

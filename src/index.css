@@ -74,7 +74,7 @@ border-radius: 10px;
 /* NAV_BAR */
 
 .Nav{
-  position: relative;
+  /* position: relative; */
   
 }
 
@@ -83,7 +83,7 @@ border-radius: 10px;
   display: flex;
   justify-content: space-between;
   /* background-color: #fff; */
-  position:fixed;
+  /* position:fixed; */
   top: 0;
   width: 100%;
 }
@@ -133,7 +133,7 @@ border-radius: 10px;
 }
 
 #delivery-methods{
-  margin-top: 280px;
+  margin-top: 380px;
   display: flex;
   justify-content: space-around;
   padding-right: 15;

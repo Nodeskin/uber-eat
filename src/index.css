@@ -72,18 +72,10 @@ border-radius: 10px;
 
 
 /* NAV_BAR */
-
-.Nav{
-  /* position: relative; */
-  
-}
-
 .Navbar{
   margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  /* background-color: #fff; */
-  /* position:fixed; */
   top: 0;
   width: 100%;
 }

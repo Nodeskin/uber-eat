@@ -6,7 +6,7 @@ const NavBar = () => {
   const [isOpen, setOpen] = useState(false)
 
   return (
-    <div className="Nav">
+    <div>
 
       <div className="Navbar">
 

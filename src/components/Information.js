@@ -1,4 +1,4 @@
-import applestore from '../assests/applestore.png'
+import applestore from '../assests/apple.svg'
 import googleplay from '../assests/googleplay.png'
 
 const Information = () => {
@@ -16,7 +16,7 @@ const Information = () => {
                 <img src={googleplay} alt="" />
             </div>
         </div>
-        
+       
 
       <div className="info-lists">
           <ul className='info-list-ul'>
@@ -37,7 +37,7 @@ const Information = () => {
       </div>
       </div>
 
-      <div className="line"></div>
+      <div className="line2"></div>
 
       </div>
   )

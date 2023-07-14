@@ -1,41 +1,20 @@
 import React from "react";
 
+
 const ListOfCities = () => {
+
+  const city1 = ["Aberdeen", "Belfast", "Birmingham", "Brighton and Sussex", "Cambridge and East Anglia", "Cardiff" ]
+  const city2 = ["Edinburg", "Glasgow", "Hull", "Leeds", "Leicester", "London" ]
+  const city3 = ["Manchester", "Merseyside", "North East, UK", "Nottingham", "Oxford, UK",]
+  const city4 = ["Sheffield", "South coast, UK", "South West, UK", "Stoke"]
   return (
-    <div>
-      <section className="cities">
-        <ul className="cities-ul">
-          <li>Aberdeen</li>
-          <li>Belfast</li>
-          <li>Birmingham</li>
-          <li>Brighton and Sussex</li>
-          <li>Cambridge and East Anglia</li>
-          <li>Cardiff</li>
-        </ul>
-        <ul className="cities-ul">
-          <li>Edinburg</li>
-          <li>Glasgow</li>
-          <li>Hull</li>
-          <li>Leeds</li>
-          <li>Leicester</li>
-          <li>London</li>
-        </ul>
-        <ul className="cities-ul">
-          <li>Manchester</li>
-          <li>Merseyside</li>
-          <li>North East, UK</li>
-          <li>Northampton and Milton Keynes</li>
-          <li>Nottingham</li>
-          <li>Oxford, UK</li>
-        </ul>
-        <ul className="cities-ul">
-          <li>Sheffield</li>
-          <li>South coast, UK</li>
-          <li>South West, UK</li>
-          <li>Stoke</li>
-        </ul>
-      </section>
-    </div>
+      <div  className = "cities-map">
+       <ul className="city-list"> {city1.map((x) => <li> {x} </li>)} </ul>
+       <ul className="city-list"> {city2.map((x) => <li> {x} </li>)} </ul>
+       <ul className="city-list"> {city3.map((x) => <li> {x} </li>)} </ul>
+       <ul className="city-list"> {city4.map((x) => <li> {x} </li>)} </ul>
+      </div >
+
   );
 };
 

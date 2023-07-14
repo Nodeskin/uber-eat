@@ -2,6 +2,9 @@ import applestore from "../assests/apple.svg";
 import googleplay from "../assests/googleplay.png";
 
 const Information = () => {
+  const info1 = ["Get help", "Add your resturant", "Sign up to deliver", "Create a business account", "Promotions"]
+  const info2 = ["Resturants near me", "View all cities", "View all countries", "Pick-up near me", "About Uber Eats", "English"]
+
   return (
     <div>
       <div className="line"></div>
@@ -18,22 +21,10 @@ const Information = () => {
         </div>
 
         <div className="info-lists">
-          <ul className="info-list-ul">
-            <li>Get help</li>
-            <li>Add your resturant</li>
-            <li>Sign up to deliver</li>
-            <li>Create a business account</li>
-            <li>Promotions</li>
-          </ul>
-          <ul className="info-list-ul">
-            <li>Resturants near me</li>
-            <li>View all cities</li>
-            <li>View all countries</li>
-            <li>Pick-up near me </li>
-            <li>About Uber Eats</li>
-            <li>English</li>
-          </ul>
+          <ul className="info-list-ul"> {info1.map((x)=> <li>{x}</li>)} </ul>
+          <ul className="info-list-ul"> {info2.map((x)=> <li>{x}</li>)} </ul>   
         </div>
+
       </div>
 
       <div className="line2"></div>

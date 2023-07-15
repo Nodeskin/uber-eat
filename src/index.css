@@ -2,7 +2,7 @@
 /* WELCOME PAGE */
 .background-image {
   background-image: url("../src/assests/bacckground-img.png");
-  height: 55em;
+  height: 45em;
   position: absolute;
   top: 0;
   left: 0px;
@@ -13,8 +13,8 @@
 }
 
  .welcome-page{
-   margin-top: 150px;
-   padding-left: 40px;
+   margin-top: 120px;
+   padding-left: 30px;
    display: flex;
    flex-direction: column;
    align-items: flex-start;
@@ -22,8 +22,8 @@
 
 
 .first-header h1{
-  font-size: 68px;
-  font-family: serif;
+  font-size: 53px;
+  font-family: sans-serif;
 }
 
 .page1-inputs{
@@ -32,8 +32,8 @@
 }
 
 .address-input{
-width: 650px;
-height: 70px;
+width: 570px;
+height: 55px;
 padding: 0 10px;
 margin-right: 15px;
 font-size: 20px;
@@ -43,20 +43,19 @@ outline: nonecd ;
 }
 
 .delivery-input{
-  width: 250px;
-  height: 70px;
+  width: 180px;
+  height: 55px;
   padding: 0 10px;
   margin-right: 15px;
-  font-size: 20px;
+  font-size: 18px;
   border: none;
-  font-weight: 600;
   cursor: pointer;
 }
 
 
 .page1-butt{
 width: 15%;
-font-size: 20px;
+font-size: 18px;
 color: white;
 background-color: black;
 border-radius: 10px;
@@ -89,16 +88,16 @@ cursor: pointer;
 
 .left-nav{
   display: flex;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 .hamburger-react{
-  margin: 22.6px 25px 0 0;
+  margin: 10px 25px 0 0;
 
 }
 
 .left-nav h1{
-  font-size: 37px;
+  font-size: 29px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -107,33 +106,36 @@ cursor: pointer;
 }
 
 .right-nav{
- margin: 15px 40px;
+ margin: 10px 30px;
 
   
 }
 
 .log-button{
-  padding: 17px 18px;
+  padding: 11px 14px 12px;
   background-color: #fff;
   color: #000;
   margin-right: 15px;
   border-radius: 30px;
   border: none;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 
 .sign-button{
-  padding: 18px 20px;
+  padding: 15px 17px;
   background-color: black;
   color: #fff;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 17px;
+  border: none;
 }
 
+
+/* DELIVERY */
 #delivery-methods{
-  margin-top: 380px;
+  margin-top: 320px;
   display: flex;
   justify-content: space-around;
   padding: 0 25px;
@@ -144,7 +146,7 @@ cursor: pointer;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 31%;
+  width: 32%;
 }
 
 .method img{
@@ -152,12 +154,13 @@ cursor: pointer;
 }
 
 .method h2{
-  font-size: 40px;
+  font-size: 28px;
   margin: 10px 0;
+  font-family: sans-serif;
 }
 
 .method a{
-font-size: 25px;
+font-size: 18px;
 color: #000;
 }
 
@@ -165,7 +168,7 @@ color: #000;
 /* CITIES NEAR ME */
 
 .map{
-margin-top: 60px;
+margin-top: 50px;
 padding:  0 40px;
 }
 
@@ -176,8 +179,8 @@ padding:  0 40px;
 }
 
 .map h1{
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-family: sans-serif;
 }
 
 
@@ -199,7 +202,7 @@ list-style: none;
 .cities-map{
   display: flex;
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 3;
   width: 100%;
   font-family: sans-serif;
@@ -210,27 +213,28 @@ list-style: none;
 /* LIST OF COUNTRY */
 
 .country-list{
-  /* padding: 40px; */
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 
 .country-header{
 display: flex;
 justify-content: space-between;
-margin: 0 30px 0;
+margin: 0 30px ;
 font-family: sans-serif;
 }
 
 .country-header h1{
-  font-size: 45px;
-  margin-bottom: 20px;
+  font-size: 35px;
+  margin-bottom: 5px;
+  font-family: sans-serif;
 }
 
 .view-link{
 color: #000;
 display: flex;
-font-size: 20px;
+font-size: 16px;
 align-items: center;
 padding-right: 5px;
 font-family: sans-serif;
@@ -246,7 +250,7 @@ font-family: sans-serif;
   .country{
     display: flex;
     text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 2.5;
     width: 100%;
     font-family: sans-serif;
@@ -258,7 +262,7 @@ font-family: sans-serif;
 
 .line{
   border-top: 1px solid rgb(221, 216, 216);
-  margin: 20px 0 30px;
+  margin: 40px 0 30px;
 }
 
 .infos{
@@ -280,7 +284,7 @@ justify-content:space-around ;
 }
 
 .info-store h1{
-  font-size: 40px;
+  font-size: 30px;
   text-align: start;
   margin-bottom: 170px;
 }
@@ -300,7 +304,7 @@ justify-content:space-around ;
 .info-list-ul{
   list-style: none;
   text-align: left;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 2.5;
   font-weight: lighter;
   font-family: Arial, Helvetica, sans-serif;
@@ -309,19 +313,21 @@ justify-content:space-around ;
 .footer{
   display: flex;
   flex-direction: column;
+  margin-bottom: 70px;
 }
 
 .footer1{
   display: flex;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 0 0 18px ;
 
 }
 
 .footer-ul{
   list-style: none;
   display: flex;
-  font-size: 20px;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 .footer-icons {
@@ -331,8 +337,8 @@ margin-left: 15px;
 }
 
 .line2{
-  border-top: 1px solid rgb(221, 216, 216);
-  margin: 15px 40px 50px;
+  border-top: 1px solid rgb(248, 243, 243);
+  margin: 0 40px 50px;
 }
 
 .copyright{
@@ -341,6 +347,7 @@ margin-left: 15px;
 }
 
 .copyright p{
-  margin-right: 55px;
-  font-size: 20px;
+  margin-right: 40px;
+  font-size: 15px;
+  font-family: sans-serif;
 }

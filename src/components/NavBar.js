@@ -9,7 +9,7 @@ const NavBar = () => {
     <div>
       <div className="Navbar">
         <div className="left-nav">
-          <Hamburger size={23} toggled={isOpen} toggle={setOpen} />
+          <Hamburger size={19} toggled={isOpen} toggle={setOpen} />
           <h1>
             Uber <span className="eat-style">Eats</span>
           </h1>
@@ -17,7 +17,7 @@ const NavBar = () => {
 
         <div className="right-nav">
           <button className="log-button">
-            <FaUser /> Log in
+            <FaUser style={{fontSize:"20px"}} /> Log in
           </button>
           <button className="sign-button">Sign up</button>
         </div>

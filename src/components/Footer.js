@@ -1,7 +1,7 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   const style = {
-    fontSize: "24px",
+    fontSize: "17px",
     marginRight: "20px",
   };
 
